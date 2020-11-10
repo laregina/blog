@@ -21,8 +21,8 @@ jobs:
           cd ./public
           ls
           git init
-          git config --global user.name 'Bigdogdou' 
-          git config --global user.email '107261216@qq.com'
+          git config --global user.name 'woshinichoushu' 
+          git config --global user.email '12345678@qq.com'
           git add .
-          git commit -m "UpdateBigDogDou"
+          git commit -m "我是你丑叔"
           git push --force --all https://${{ secrets.CODING_TOKEN }}@${{ secrets.CODING_REPO }}
